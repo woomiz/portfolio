@@ -1,11 +1,11 @@
 - name: HTML5/CSS3
-  percentage: 90
+  percentage: 95
   color: danger
 
-- name: Go
-  percentage: 80
+- name: Javascript
+  percentage: 85
   color:
 
-- name: Python
-  percentage: 70
+- name: MongoDB/Mongoose
+  percentage: 80
   color: dark
