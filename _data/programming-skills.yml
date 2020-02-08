@@ -7,5 +7,9 @@
   color:
 
 - name: MongoDB/Mongoose
-  percentage: 80
+  percentage: 70
   color: dark
+
+- name: React/Redux/Hooks
+  percentage: 90
+  color: primary
