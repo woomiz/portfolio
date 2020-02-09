@@ -79,7 +79,7 @@ This application implements the ability to log in using Google oauth. It uses pl
   </a>
 </div>
 
-Once you are logged in, you can view a list of previously created surveys and if you are looking to create a new survey, you can do it by clicking on the "+" icon on the bottom right corner and after doing this you will be directed to a survey Form filling page when you have the option to give the body,title of the email along with the recipients which should be given as "," seperated. On forwarding and confirming your survey in the form review page you will be given the "send" button to send your mail to the recipients
+Once you are logged in, you can view a list of previously created surveys and if you are looking to create a new survey, you can do it by clicking on the "+" icon on the bottom right corner and after doing this you will be directed to a survey Form filling page when you have the option to give the body,title of the email along with the **recipients which should be given as "," seperated**. On forwarding and confirming your survey in the form review page you will be given the "send" button to send your mail to the recipients
 
 After the letters are delivered, you can click on the links placed inside and using SendGrid Webhooks the selected option is transferred to our server. Each vote adds 1 to the selected option and the site is automatically refreshed on the updates given
 <p class="text-center">
