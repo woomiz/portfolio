@@ -16,6 +16,7 @@ description: Emaily is a mini email surveys service. Created as a fullstack Java
 ---
 
 ## Emaily
+
 is a mini email surveys service. Created as a fullstack JavaScript application on React and Node. With technologies like Redux, Redux Thunk, React Router, Express, MongoDB and Bootstrap for styling.
 
 This application implements the ability to log in using Google oauth. It uses plugin passport for the Node and connected strategy passport-google-oauth20. To send Emails used SendGrid API. And to simulate charging, the Stripe API is connected in test mode. All received data is stored on mongodb.com and managed using the mongoose plugin.
@@ -82,6 +83,7 @@ This application implements the ability to log in using Google oauth. It uses pl
 Once you are logged in, you can view a list of previously created surveys and if you are looking to create a new survey, you can do it by clicking on the "+" icon on the bottom right corner and after doing this you will be directed to a survey Form filling page when you have the option to give the body,title of the email along with the **recipients which should be given as "," seperated**. On forwarding and confirming your survey in the form review page you will be given the "send" button to send your mail to the recipients
 
 After the letters are delivered, you can click on the links placed inside and using SendGrid Webhooks the selected option is transferred to our server. Each vote adds 1 to the selected option and the site is automatically refreshed on the updates given
+
 <p class="text-center">
 {% include elements/button.html link="https://emaily-recreation.herokuapp.com/" text="Live Demo" style="outline-danger" %}
 </p>
@@ -96,6 +98,3 @@ if you want to run this project on your machine, then after downloading you need
 {% include elements/button.html link="https://github.com/woomiz/portfolio" text="Open Git Repo" %}
 <a class="github-button" href="https://github.com/woomiz/portfolio/archive/master.zip" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-cloud-download" data-size="large" aria-label="Download woomiz/portfolio on GitHub">Download Repo</a>
 </p>
-
-
-
