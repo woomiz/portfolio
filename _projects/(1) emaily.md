@@ -95,6 +95,6 @@ if you want to run this project on your machine, then after downloading you need
 > this project was made during the Node with React: Fullstack Web Development course at udemy.com and then improved.
 
 <p style="display:flex; align-items:center; justify-content:center;" class="wow">
-{% include elements/button.html link="https://github.com/woomiz/portfolio" text="Open Git Repo" %}
-<a class="github-button" href="https://github.com/woomiz/portfolio/archive/master.zip" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-cloud-download" data-size="large" aria-label="Download woomiz/portfolio on GitHub">Download Repo</a>
+{% include elements/button.html link="https://github.com/woomiz/emaily" text="Open Git Repo" %}
+<a class="github-button" href="https://github.com/woomiz/emaily/archive/master.zip" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-cloud-download" data-size="large" aria-label="Download woomiz/portfolio on GitHub">Download Repo</a>
 </p>
